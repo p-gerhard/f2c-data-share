@@ -1,4 +1,11 @@
-/* RUN : mpiexec -n 1 f90_data_ex : -n 1 c99_data_ex */
+/*
+ * Copyright (c) 2017-2020 Pierre Gerhard <pierre.gerhard@gmail.com>
+ *
+ * f2c-data-share is free software; you can redistribute it and/or modify
+ * it under the terms of the GPLv3 license. See LICENSE for details.
+ * 
+ * To run the code use mpiexec -n 1 f90_data_ex : -n 1 c99_data_ex
+ */
 #undef NDEBUG
 #include <assert.h>
 #include <stdio.h>
